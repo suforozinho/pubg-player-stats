@@ -6,6 +6,7 @@
 
 <script>
 import 'normalize.css/normalize.css';
+import 'font-awesome/css/font-awesome.css';
 import HelloWorld from './components/HelloWorld.vue'
 import Search from './components/Search.vue';
 
@@ -27,14 +28,9 @@ export default {
           box-sizing: border-box;
 }
 
-body {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/pubg-background.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
-
 #app {
+  background: #262626;
   font-family: 'Montserrat', sans-serif;
+  height: 100vh;
 }
 </style>
