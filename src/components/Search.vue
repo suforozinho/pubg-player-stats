@@ -31,6 +31,7 @@
   color: #fff;
   padding: 10px 12px;
   transition: all 0.2s ease-in-out;
+  outline: none;
 }
 
 .Search__button:hover {
